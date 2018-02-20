@@ -1,0 +1,26 @@
+#!/bin/bash
+# REV03: Mon Sep 11 14:25:01 WIB 2017
+# START: Mon Sep  5 14:34:41 WIB 2016
+
+# 
+
+# Copyright (C) 2016-2017 http://RahmatM.Samik-Ibrahim.vLSM.org/
+# This program is free script/software. This program is distributed in the hope 
+# that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+echo "============="
+echo 'Loop with [*]'
+for ii in "$*"
+do
+   echo $ii
+done
+
+echo "=============="
+echo 'Loop with [@]'
+for ii in "$@"
+do
+   echo $ii
+done
+exit 0
+
